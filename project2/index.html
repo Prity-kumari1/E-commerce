@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>E-commerce website</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="nav">
+            <div class="logo">
+                <h1>Trends</h1>
+            </div>
+            <ul>
+                <li><a href="" class="active">home</a></li>
+                <li><a onclick="shop()">Shops</a></li>
+                <li><a onclick="blog()">Blog</a></li>
+                <li><a onclick="about()">About</a></li>
+                <li><a onclick="contact()">Contact</a></li>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </ul>
+        </nav>
+        <!-- mainpage -->
+        <div class="main" id="main">
+            <div class="mainText">
+                <h2>Trends...</h2>
+                <h1 class="top">Super Value Deals</h1>
+                <h1>On All Products</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, aliquid!</p>
+                <button class="mainBtn">Explore</button>
+            </div>
+            <div class="mainImage">
+                <img src="assert/girl.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!--  men's cards -->
+    <div class="trends" id="men">
+        <div class="head">
+            <h1>Trends <span>Men's Wear</span> </h1>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <img src="assert/shirt1.png" alt="">
+                <div class="card-text">
+                    <h2>Cotton Trending Shirt's</h2>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                    <button>Add to card</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assert/shirt2.png" alt="">
+                <div class="card-text">
+                    <h2>Cotton Trending Shirt's</h2>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                    <button>Add to card</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assert/shirt3.png" alt="">
+                <div class="card-text">
+                    <h2>Cotton Trending Shirt's</h2>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                    <button>Add to card</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- woman's card -->
+    <div class="trends" id="women">
+        <div class="head">
+            <h1>Trends <span>Womens' Wear</span> </h1>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <img src="assert/girl1.jpg" alt="">
+                <div class="card-text">
+
+                    <h2>Trending Girl Tops</h2>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                    <button>Add to card</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assert/girl4.jpg" alt="">
+                <div class="card-text">
+
+                    <h2> Trending Girl Tops</h2>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                    <button>Add to card</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assert/girl3.jpg" alt="">
+                <div class="card-text">
+
+                    <h2>Trending Girl Tops</h2>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                    <button>Add to card</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- cart -->
+     <!-- <div class="card">
+        <img src="" alt="">
+        <div class="cardText">
+            <h1>Trends Offer: Trending Shop</h1>
+            <h1>Now</h1>
+            <h2>Special price</h2>
+            <h2>$11</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad quia voluptas harum saepe necessitatibus nulla modi officia eum, quidem voluptates.</p>
+            <div class="btn">
+                <button>Buy Now</button>
+                <button>Add To Card</button>
+            </div>
+            <button>Back</button>
+        </div>
+     </div> -->
+    <!-- Trends top blog -->
+    <div class="trends" id="blogs">
+        <div class="head">
+            <h1>Trends <span>Blog</span> </h1>
+        </div>
+        <div class="cards">
+
+            <div class="blog">
+                <img src="assert/blog1.jpeg" alt="">
+                <div class="blog-text">
+                    <h1>Trending Girl Cloths</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid deleniti corporis iusto, eum
+                        molestias nesciunt?</p>
+                    <a
+                        href="https://www.elsewherefashion.com/blog/?srsltid=AfmBOorQPUGDNNKysZ-Rv8adzDmLl48l0Q4yOrFNFfj_-vX89F6D3b_p">Read
+                        More</a>
+                </div>
+            </div>
+            <div class="blog">
+                <img src="assert/blog2.jpg" alt="">
+                <div class="blog-text">
+                    <h1>Trending Boys Cloths</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid deleniti corporis iusto, eum
+                        molestias nesciunt?</p>
+                    <a href="https://www.snitch.co.in/">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- about -->
+    <div class="about" id="about">
+        <div class="aboutUs">
+            <h1>@Know Us...</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="aboutBox">
+            <img src="assert/about.png" alt="">
+            <div class="aboutContact">
+                <h1>Who we are?</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, deserunt! Quae doloribus impedit ea
+                    optio itaque, eos amet veniam debitis. Laboriosam iusto blanditiis est voluptatum quo. Enim
+                    cupiditate aspernatur vero. Similique sequi ducimus quas, quia repellendus ea exercitationem
+                    quibusdam eius quae repellat autem quam nemo ex molestiae cum sed debitis labore! Dicta similique
+                    neque exercitationem delectus maiores explicabo porro cupiditate.</p>
+            </div>
+        </div>
+
+    </div>
+    <!-- Contact -->
+    <div class="contact" id="contact">
+        <div class="aboutUs">
+            <h1>#Let's Connect...</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="contactBox">
+            <div class="contactText">
+
+                <h1>Visit Our Office or Contact Us Today</h1>
+                <p><span>Address: </span> xyz Town, state, Country, 700056</p>
+                <p> <span>Contact:</span> abc#gmail.com </p>
+                <p> <span>Number: </span> +xxxxxx9909</p>
+            </div>
+            <img src="assert/map.jpg" alt="">
+            <!-- <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117925.21689694983!2d88.26495057337593!3d22.535564936984567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2sKolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1724481122023!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+        </div>
+        <!-- FORM -->
+         <div class="form">
+            <h1>Connect Us. Fill form</h1>
+            <input type="text" placeholder="Write your first name"> <br>
+            <input type="text" placeholder="Write your last name"> <br>
+            <input type="email" placeholder="write your email"> <br>
+            <input type="number" placeholder="write your Number"> <br>
+            <input type="text" placeholder="write your Address"> <br>
+            <button>Submit</button>
+         </div>
+    </div>
+    <!-- letter -->
+    <div class="letter" id="letter">
+        <div class="text">
+
+            <h1>Sign Up for NewsLetter</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <form action="">
+            <input type="email" placeholder="Enter your gmail">
+            <button>Sign Up</button>
+        </form>
+    </div>
+
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footerText">
+            <h2>Trends</h2>
+            <p>Service</p>
+            <p>customer</p>
+            <p>Satisfaction</p>
+        </div>
+        <div class="footerText">
+            <h2>About Us</h2>
+            <p>Address : Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+            <p>Service</p>
+            <p>customer</p>
+            <p>Satisfaction</p>
+        </div>
+        <div class="footerText">
+            <h2>Contact</h2>
+            <p>9998098789 </p>
+            <p>customer</p>
+            <p>Comming Up</p>
+            <p>New Arrival</p>
+        </div>
+        <div class="footerText">
+            <h2>trending</h2>
+            <p>Service</p>
+            <p>customer</p>
+            <p>Satisfaction</p>
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
